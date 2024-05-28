@@ -1,0 +1,137 @@
+<<<<<<< HEAD
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Set body height to 100% */
+    width: 100%;
+    
+}
+
+header {
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px;
+    text-align: center;
+    position: fixed; /* Fixed position to keep it on top */
+    top: 0;
+    width: 100%; /* Set header width to 100% */
+}
+
+header > nav > ul > li > a {
+    color: white;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+    margin-top: 100px; /* Adjust margin-top to make space for the fixed header */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section .text-start{
+    margin-top: 80px;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    .image-container {
+        flex-direction: row;
+    }
+
+    .image {
+        flex: 1;
+        margin-right: 20px;
+    }
+
+    .image-details {
+        flex: 1;
+    }
+}
+
+#blog-image{
+    border-radius: 50px;
+}
+=======
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Set body height to 100% */
+    width: 100%;
+    
+}
+
+header {
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px;
+    text-align: center;
+    position: fixed; /* Fixed position to keep it on top */
+    top: 0;
+    width: 100%; /* Set header width to 100% */
+}
+
+header > nav > ul > li > a {
+    color: white;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+    margin-top: 100px; /* Adjust margin-top to make space for the fixed header */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section .text-start{
+    margin-top: 80px;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+    .image-container {
+        flex-direction: row;
+    }
+
+    .image {
+        flex: 1;
+        margin-right: 20px;
+    }
+
+    .image-details {
+        flex: 1;
+    }
+}
+
+#blog-image{
+    border-radius: 50px;
+}
+>>>>>>> d925270 (Initial commit)
